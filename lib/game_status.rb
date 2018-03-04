@@ -14,3 +14,11 @@ WIN_COMBINATIONS = [
   [0,4,8], #diagonal win
   [2,4,6] #diagonal win
 ]
+
+def won?(board)
+  
+end
+
+def full?(board)
+  board.none?{|space| space == " "}
+end

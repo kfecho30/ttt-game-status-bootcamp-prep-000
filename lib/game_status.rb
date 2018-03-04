@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   won = false
   WIN_COMBINATIONS.each do |combo|
-    if combo.includes? == " "
+    if board[combo[0]] == " "
       won = false
     elsif board[combo[0]] == board[combo[1]] && board[combo[0]] == board[combo[2]]
       won = combo

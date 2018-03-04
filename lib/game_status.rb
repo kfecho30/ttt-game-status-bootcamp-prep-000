@@ -40,4 +40,5 @@ def over?(board)
 end
 
 def winner(board)
+  won?[1]
 end

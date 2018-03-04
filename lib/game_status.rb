@@ -23,6 +23,10 @@ def full?(board)
   board.none?{|space| space == " "}
 end
 
+def draw?(board)
+  
+end
+
 def over?(board)
   won?(board) || full?(board) || draw?(board)
 end

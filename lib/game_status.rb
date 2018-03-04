@@ -42,5 +42,7 @@ end
 def winner(board)
   if won? != false
     won?[1]
+  else
+    nil
   end
 end
